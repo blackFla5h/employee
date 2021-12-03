@@ -17,7 +17,7 @@ function Signup() {
 
     return (
         <div style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", verticalAlign:"middle", minHeight:"100vh"}}>
-        <Card  style={{ width: "25rem",borderRadius:"10px", padding: "0.5rem 0", height:"fit-content" }}
+        <Card  style={{ width: "25rem",borderRadius:"8px", padding: "0.5rem 0", height:"fit-content" }}
         bg="light"
         className="col-lg-4 padding mx-3 my-3 shadow-lg">
             <Card.Body style={{padding:"0.2rem 0"}}>
