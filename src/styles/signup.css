@@ -1,0 +1,25 @@
+
+.show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none; 
+}
+
+.show>.btn-secondary.dropdown-toggle{
+   background-color: #4fc7f7;
+   border-color: #4fc7f7;
+}
+
+.btn-secondary:focus, .btn-secondary:hover,  .btn-secondary {
+   color: #fff;
+   background-color: #4fc7f7;
+   border-color: #4fc7f7;
+   box-shadow: none;
+   font-size: 0.9rem;
+}
+
+.shadow-lg {
+    box-shadow: 0 0.7rem 1rem #4fc7f730 !important;
+}
+
+.card{
+    border: 0.01rem solid #4fc7f730
+}

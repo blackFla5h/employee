@@ -1,0 +1,28 @@
+.settings:active, .settings:hover{
+    transform: rotate(45deg);
+}
+.settings{
+    transition: transform 1s
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.show>.btn-primary.dropdown-toggle:focus {
+     box-shadow: none; 
+}
+
+.show>.btn-primary.dropdown-toggle{
+    background-color: #666666;
+    border-color: #666666;
+}
+
+.btn-primary:focus, .btn-primary:hover,  .btn-primary {
+    color: #fff;
+    background-color: #666666;
+    border-color: #666666;
+    box-shadow: none;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.3rem;
+}
+
