@@ -43,7 +43,7 @@
     background-color: transparent;
 }
 
-.form-control :focus{
-    border:transparent;
-    box-shadow: transparent;
+.form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
 }
