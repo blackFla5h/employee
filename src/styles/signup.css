@@ -10,16 +10,40 @@
 
 .btn-secondary:focus, .btn-secondary:hover,  .btn-secondary {
    color: #fff;
-   background-color: #4fc7f7;
-   border-color: #4fc7f7;
+   background-image: linear-gradient(to right, #fc7500, #8cd163);
+   border-color: transparent;
    box-shadow: none;
    font-size: 0.9rem;
 }
 
 .shadow-lg {
-    box-shadow: 0 0.7rem 1rem #4fc7f730 !important;
+    box-shadow: none !important;
 }
 
 .card{
-    border: 0.01rem solid #4fc7f730
+    border: transparent;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+}
+
+.container-fluid{
+    background-color: #fc750000;
+}
+
+.input{
+    font-weight: 500;
+    background-color: #66666620;
+    border:transparent;
+    border-radius: 5px;
+    padding: 1.5vh 0;
+}
+
+.input-group-text{
+    border:transparent;
+    background-color: transparent;
+}
+
+.form-control :focus{
+    border:transparent;
+    box-shadow: transparent;
 }
